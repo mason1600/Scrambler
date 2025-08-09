@@ -8,6 +8,10 @@ echo "nyevtug yrgf fpenzoyr fbzr frpergf funyy jr?" | tr a-zA-Z n-za-mN-ZA-M
 read SCRAMBLE
 # another echo command is used but this time to append or create if nonexistent a transliterated file containing the input from variable SCRAMBLE in the same directory the script is placed/run from called scrambledsecret.txt
 echo "$SCRAMBLE" | tr a-zA-Z n-za-mN-ZA-M >> scrambledsecret.txt
+
+# OPTIONAL TO zip compress and encrypt and prompt to create keyphrase and creates secret encrypted zip of scrambled text REMOVE THE COMMENT '#' SYMBOL FROM THE BEGINNING OF THE NEXT LINE OF CODE "LINE 13" '#' OR ADD IT TO NULLIFY AS A COMMENT
+# zip -er secret scrambledsecret.txt
+
 # last but not least a proper exit command to mark the end and close
 exit
 
