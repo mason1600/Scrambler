@@ -3,3 +3,4 @@
 # SO JUST MAKE SURE WHEN YOU COPY YOUR TEXT BACK INTO THE SCRAMBLER YOU DONT HAVE A BUNCH OF EMPTY SPACE IN THE TEXT DOCUMENT CREATED BY PRESSING THE ENTER KEY OR IT WILL STOP AFTER THE FIRST ENTER KEY SPACE IT SEES CREATING MADNESS
 # the set -e command is used to make the program exit upon error just in case to many words are given to the scrambler usally no more than a line to be safe or it does weird things
 # YOUR SCRAMBLED TEXT WILL BE FOUND IN THE SAME DIRECTORY AS THE SCRIPT IT SELF IF RUN FROM THAT DIRECTORY CALLED scrambledsecret.txt
+# OPTIONAL TO zip compress and encrypt and prompt to create keyphrase and create secret encrypted zip of scrambled text REMOVE THE COMMENT '#' SYMBOL FROM BEGINNING OF "LINE 13" '#' OR ADD IT TO NULLIFY AS A COMMENT
