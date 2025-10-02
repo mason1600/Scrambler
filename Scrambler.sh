@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# The script Scrambler.sh was created by mason1600 on GitHub released with the license GNU General Public License v3.0
 # the set -e command is used to make the program exit upon error just in case to many words are given to the scrambler usally no more than a line to be safe or it does weird things
 set -e
 # echo command is used on its own scrambled text and transliterated to the users displayed terminal prompt
